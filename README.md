@@ -23,7 +23,7 @@ Pour que les guides fonctionnent, vous devez installer une version compatible de
 2. Téléchargez **tera-guide-core** **[ici](https://github.com/hsdn/tera-guide-core/archive/refs/heads/master.zip)** et placez-le dans votre dossier **mods** en tant que **"tera-guide-core"**,
      pas "tera-guide-core-master".
 
-### ✅: prise en charge de la langue française dans les guides et le chat pour le serveur TERA de Menma
+### :✅ prise en charge de la langue française dans les guides et le chat pour le serveur TERA de Menma
 1. Téléchargez le fichier **[fonts_eur.patched.gpk](https://drive.google.com/file/d/1LQBCKI4yxprVOCqJSQa2bwNiVnNQoZyx/view?usp=sharing)** et placez-le dans le répertoire `\Client\S1Game \CookedPC\Art_Data\Packages\S1UI`.
 2. Accédez au TERA de Menma et entrez la commande **guide fr** dans le chat de la boîte à outils du jeu.
 
