@@ -4,34 +4,34 @@
 module.exports = {
 	7011: {
 		"en": "Shadow of the Gutrends (Guardian)",
-		"ru": "Живодеры и черная тень (хранитель)"
+		"fr": "Shadow of the Gutrends (Guardian)"
 	},
 	7015: {
 		"en": "Escape from Balder's Refuge (Guardian)",
-		"ru": "Спасти Убежище Балдера (хранитель)"
+		"fr": "Escape from Balder's Refuge (Guardian)"
 	},
 	3040: {
 		"en": "Lumikan's Trial",
-		"ru": "Сонный паралич Лукмии (Подземелье испытаний)"
+		"fr": "Lumikan's Trial"
 	},
 	3042: {
 		"en": "Gardan's Trial",
-		"ru": "Место казни (Подземелье испытаний)"
+		"fr": "Gardan's Trial"
 	},
 	3043: {
 		"en": "Harnovog's Trial",
-		"ru": "Крепость Тенебриса (Подземелье испытаний)"
+		"fr": "Harnovog's Trial"
 	},
 	3046: {
 		"en": "Rogash's Trial",
-		"ru": "Лаборатория слияния (Подземелье испытаний)"
+		"fr": "Rogash's Trial"
 	},
 	3126: {
 		"en": "Corrupted Skynest (Hard)",
-		"ru": "Логово Бессмертного Келсаика"
+		"fr": "Corrupted Skynest (Hard)"
 	},
 	3108: {
 		"en": "Cursed Antaroth's Abyss",
-		"ru": "Проклятый Омут Антароса"
+		"fr": "Cursed Antaroth's Abyss"
 	}
 };
