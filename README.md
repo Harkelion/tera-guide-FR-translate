@@ -16,7 +16,7 @@ For the guides to work you need a get compatible versions of **library** and **t
 2. Download **tera-guide-core** from **[here](https://github.com/hsdn/tera-guide-core/archive/refs/heads/master.zip)** and place it to you **mods** folder named as **"tera-guide-core"**,   
    not "tera-guide-core-master".
 
-### :information_source : installation manuelle
+### :information_source: installation manuelle
 Les modules tera-guide et [tera-guide-core](https://github.com/hsdn/tera-guide-core) sont actuellement compatibles avec ce patch.
 Pour que les guides fonctionnent, vous devez installer une version compatible de **library** et **tera-guide-core** :
 1. Téléchargez **library** **[ici](https://git.dev.hsdn.org/tera-v92/library/archive/master.zip)** et placez-le dans votre dossier **mods** .
