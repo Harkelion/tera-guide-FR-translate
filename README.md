@@ -7,7 +7,7 @@
   Automatic install from **Get More Mods** tab.
 
 * Entièrement compatible avec [version non officielle](https://github.com/tera-private-toolbox/tera-toolbox) Toolbox TERA pour le patch 92.
-   Installation automatique via l'onglet **Télécharger les modules**.
+   Installation automatique via l'onglet **Get More Mods**.
 
 ### :information_source: Manual installation
 The tera-guide and [tera-guide-core](https://github.com/hsdn/tera-guide-core) are already compatible with this patch.   
