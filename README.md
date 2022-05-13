@@ -6,8 +6,8 @@
 * Fully compatible with [unofficial version](https://github.com/tera-private-toolbox/tera-toolbox) of the TERA Toolbox for patch 92.   
   Automatic install from **Get More Mods** tab.
 
-* Полностью совместимо с [неофициальной версией](https://github.com/tera-private-toolbox/tera-toolbox) TERA Toolbox для патча 92.   
-  Автоматическая установка через вкладку **Скачать модули**.
+* Entièrement compatible avec [version non officielle](https://github.com/tera-private-toolbox/tera-toolbox) Toolbox TERA pour le patch 92.
+   Installation automatique via l'onglet **Télécharger les modules**.
 
 ### :information_source: Manual installation
 The tera-guide and [tera-guide-core](https://github.com/hsdn/tera-guide-core) are already compatible with this patch.   
@@ -16,38 +16,38 @@ For the guides to work you need a get compatible versions of **library** and **t
 2. Download **tera-guide-core** from **[here](https://github.com/hsdn/tera-guide-core/archive/refs/heads/master.zip)** and place it to you **mods** folder named as **"tera-guide-core"**,   
    not "tera-guide-core-master".
 
-### :information_source: Ручная установка
-Модули tera-guide и [tera-guide-core](https://github.com/hsdn/tera-guide-core) совместимы с данным патчем уже сейчас.   
-Для работы гайдов вам потребуется установка совместимой версии **library** и **tera-guide-core**:
-1. Скачайте **library** **[здесь](https://git.dev.hsdn.org/tera-v92/library/archive/master.zip)** и поместите в вашу папку **mods**.
-2. Скачайте **tera-guide-core** **[здесь](https://github.com/hsdn/tera-guide-core/archive/refs/heads/master.zip)** и поместите в вашу папку **mods** как **"tera-guide-core"**,   
-   а не "tera-guide-core-master".
+### :information_source : installation manuelle
+Les modules tera-guide et [tera-guide-core](https://github.com/hsdn/tera-guide-core) sont actuellement compatibles avec ce patch.
+Pour que les guides fonctionnent, vous devez installer une version compatible de **library** et **tera-guide-core** :
+1. Téléchargez **library** **[ici](https://git.dev.hsdn.org/tera-v92/library/archive/master.zip)** et placez-le dans votre dossier **mods** .
+2. Téléchargez **tera-guide-core** **[ici](https://github.com/hsdn/tera-guide-core/archive/refs/heads/master.zip)** et placez-le dans votre dossier **mods** en tant que **"tera-guide-core"**,
+     pas "tera-guide-core-master".
 
-### :white_check_mark: Поддержка русского языка в гайдах и чате для сервера Menma's TERA
-1. Скачать файл **[fonts_eur.patched.gpk](https://drive.google.com/file/d/1LQBCKI4yxprVOCqJSQa2bwNiVnNQoZyx/view?usp=sharing)** и поместить его в директорию `\Client\S1Game\CookedPC\Art_Data\Packages\S1UI`.
-2. Зайти в Menma's TERA и ввести команду **guide ru** в чат Toolbox в игре.
+### ✅: prise en charge de la langue française dans les guides et le chat pour le serveur TERA de Menma
+1. Téléchargez le fichier **[fonts_eur.patched.gpk](https://drive.google.com/file/d/1LQBCKI4yxprVOCqJSQa2bwNiVnNQoZyx/view?usp=sharing)** et placez-le dans le répertoire `\Client\S1Game \CookedPC\Art_Data\Packages\S1UI`.
+2. Accédez au TERA de Menma et entrez la commande **guide fr** dans le chat de la boîte à outils du jeu.
 
 ---
 
-## Description / Описание
+## Description 
 
 The dungeon guide module with Text-to-speech notifications, display hints on screen and drawing zones of bosses attacks and mechanics. Available English and Russian languages (detects automatically).
 
-Модуль подсказок по данжам с возможностью голосовых уведомлений, вывод подсказок в чат или на экран, а также отрисовка зон атак боссов и механик. Поддерживаются Русский и Английский языки (определяются автоматически).
+Module d'indices de donjon avec possibilité de notifications vocales, d'affichage d'indices dans le chat ou à l'écran, ainsi que de dessin de zones d'attaque et de mécanismes de boss. Les langues russe et anglaise sont prises en charge (détectées automatiquement).
 
-#### Other translations / Другие локализации
+#### Other translations / Autres traductions
 * [**Spanish (Español)** by Loliconera](https://github.com/Loliconera/tera-guide-spanish)
 * [**Spanish (Español)** by Emilia](https://github.com/emilia-s2/Guia-DG-Portugues-Espanol)
 * [**Portuguese (Português)** by Emilia](https://github.com/emilia-s2/Guia-DG-Portugues-Espanol)
 
-## Dependencies / Зависимости
+## Dependencies / Dépendances
 * **library** - https://github.com/tera-private-toolbox/library
 * **tera-guide-core** - https://github.com/hsdn/tera-guide-core
 
 When using TeraToolbox, all dependencies will be installed automatically.   
 При использовании TeraToolbox, все зависимости будут установлены автоматически.
 
-## Commands / Команды
+## Commands / Commandes
 Toolbox(/8) | Command description | Описание команды
 --- | --- | ---
 **guide** | Module on/off | Вкл./выкл. модуля
@@ -66,65 +66,22 @@ Toolbox(/8) | Command description | Описание команды
 
 ## Supported dungeons / Поддерживаемые данжи
 
-### Patch v115.02
-id | Dungeon name | Название данжа
---- | --- | ---
-7011 | Shadow of the Gutrends (Guardian) | Живодеры и черная тень (хранитель)
-7015 | Escape from Balder's Refuge (Guardian) | Операция "Спасти Убежище Балдера" (хранитель)
-3040 | Lumikan's Trial | Сонный паралич Лукмии (Подземелье испытаний)
-3042 | Gardan's Trial | Место казни (Подземелье испытаний)
-3043 | Harnovog's Trial | Крепость Тенебриса (Подземелье испытаний)
-3046 | Rogash's Trial | Лаборатория слияния (Подземелье испытаний)
-3047 | Hall of the Argon Queen (Hard) | Обитель Шандры Манайи (сложно)
-3209 | Chaos Ice Throne | Ледяной трон Хаоса
-3108 | Cursed Antaroth's Abyss | Проклятый Омут Антароса
-3126 | Corrupted Skynest (Hard) | Логово Бессмертного Келсаика
-9920 | Antaroth's Abyss (Hard) | Омут Бездушного Антароса
-3109 | Ice Throne | Ледяной трон
-3036 | Sky Cruiser (Hard) | Небесный крейсер (сложно)
-9068 | Shadow Sanguinary (Hard) | Убежище Дуриона (сложно)
-3027 | Forbidden Arena [Hagufna] | [Бессмертный воин] Арена безумия
-3105 | Fusion Laboratory | Лаборатория Слияния
-9794 | Thaumetal Refinery | Лаборатория Сайрекса
-
 ### Patch v92.04 (Menma's TERA)
 id | Dungeon name | Название данжа
 --- | --- | ---
-7011 | Shadow of the Gutrends (Guardian) | Живодеры и черная тень (хранитель)
-7015 | Escape from Balder's Refuge (Guardian) | Операция "Спасти Убежище Балдера" (хранитель)
-9981 | Velik's Sanctuary (Hard) | Разрушенное Святилище Велики
-9044 | Bahaar's Sanctum | Святилище Бахаара
-9056 | Timescape (Hard) | Хроноплоскость (сложно)
-9759 | Forsaken Island (Hard) | Остров Мертвых (сложно)
-3201 | Gossamer Vault (Hard) | Гнездо сверкающей Паркин
-9920 | Antaroth's Abyss (Hard) | Омут Бездушного Антароса
-9982 | Grotto of Lost Souls (Hard) | Мастерская Леандра (сложно)
-9735 | RK-9 Kennel | Ангар RK-9
-3739 | Red Refuge | Лагерь повстанцев
-9780 | Velik's Hold (5-Person) | Вход в катакомбы Велики
-9781 | Velik's Sanctuary | Святилище Велики
-
-### Patch v92.04 (Asura Tera)
-id | Dungeon name | Название данжа
---- | --- | ---
-7011 | Shadow of the Gutrends (Guardian) | Живодеры и черная тень (хранитель)
-7015 | Escape from Balder's Refuge (Guardian) | Операция "Спасти Убежище Балдера" (хранитель)
-3027 | Forbidden Arena [Hagufna] | [Бессмертный воин] Арена безумия
-9044 | Bahaar's Sanctum | Святилище Бахаара
-9759 | Forsaken Island (Hard) | Остров Мертвых (сложно)
-3026 | Corrupted Skynest | Логово Келсаика
-9970 | Ruinous Manor (Hard) | Руины Кошмарной Абнукты
-9056 | Timescape (Hard) | Хроноплоскость (сложно)
-9067 | Demokron Factory (Hard) | Лаборатория Берна (сложно)
-9070 | Manglemire | Замок Парадоксов
-9935 | RK-9 Kennel (Hard) | Ангар совершенного RK-9
-3023 | Akalath Quarantine | Секретное подземелье крепости Берарк
-3201 | Gossamer Vault (Hard) | Гнездо сверкающей Паркин
-9920 | Antaroth's Abyss (Hard) | Омут Бездушного Антароса
-9982 | Grotto of Lost Souls (Hard) | Заброшенная Мастерская Леандра
-9735 | RK-9 Kennel | Ангар RK-9
-3739 | Red Refuge | Лагерь повстанцев
-9794 | Thaumetal Refinery | Лаборатория Сайрекса
+7011 | Shadow of the Gutrends (Guardian)
+7015 | Escape from Balder's Refuge (Guardian) 
+9981 | Velik's Sanctuary (Hard)
+9044 | Bahaar's Sanctum 
+9056 | Timescape (Hard)
+9759 | Forsaken Island (Hard) 
+3201 | Gossamer Vault (Hard)
+9920 | Antaroth's Abyss (Hard)
+9982 | Grotto of Lost Souls (Hard)
+9735 | RK-9 Kennel
+3739 | Red Refuge
+9780 | Velik's Hold (5-Person)
+9781 | Velik's Sanctuary
 
 ## Notices settings / Настройка уведомлений
 
