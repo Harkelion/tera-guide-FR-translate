@@ -18,7 +18,7 @@ For the guides to work you need a get compatible versions of **library** and **t
 
 ### :information_source: installation manuelle
 Les modules tera-guide et [tera-guide-core](https://github.com/hsdn/tera-guide-core) sont actuellement compatibles avec ce patch.
-Pour que les guides fonctionnent, vous devez installer une version compatible de **library** et **tera-guide-core** :
+Pour que les guides fonctionnent, vous devez installer une version compatible de **library** et **tera-guide-core** :
 1. Téléchargez **library** **[ici](https://git.dev.hsdn.org/tera-v92/library/archive/master.zip)** et placez-le dans votre dossier **mods** .
 2. Téléchargez **tera-guide-core** **[ici](https://github.com/hsdn/tera-guide-core/archive/refs/heads/master.zip)** et placez-le dans votre dossier **mods** en tant que **"tera-guide-core"**,
      pas "tera-guide-core-master".
@@ -50,24 +50,24 @@ When using TeraToolbox, all dependencies will be installed automatically.
 ## Commands / Commandes
 Toolbox(/8) | Command description | Описание команды
 --- | --- | ---
-**guide** | Module on/off | Вкл./выкл. модуля
-**guide&nbsp;gui** | Show module GUI| Показать графический интерфейс
-**guide&nbsp;voice**<br>(default: off) | Text-to-speech (TTS) notices on/off, speech rate is set by command **guide `1`~`10`** | Вкл./выкл. голосовых уведомлений (TTS), скорость чтения задается командой **guide `1`~`10`**
-**guide&nbsp;lNotice**<br>(default: off) | Send notices to chat channel "Notice" instead of on-screen messages on/off | Вкл./выкл. отправки уведомлений в канал чата "Важно" вместо показа экранных сообщений
-**guide&nbsp;gNotice**<br>(default: off) | Send notices to party chat channel on/off | Вкл./выкл. отправки уведомлений в канал чата группы
-**guide&nbsp;`auto`/`en`/`ru`**<br>(default: auto) | Set guide language | Выбор языка перевода
-**guide&nbsp;`1`~`10`**<br>(default: 2) | Set TTS speech rate | Регулировка скорости чтения голосовых сообщений
-**guide&nbsp;spawnObject**<br>(default: on) | Spawn marker objects on/off | Вкл./выкл. спавна маркировочных объектов
-**guide&nbsp;stream**<br>(default: off) | Streamer Mode on/off (hide all notices and objects, TTS will played) | Вкл./выкл. режима стримера (скрывает все уведомления и маркеры, TTS будет проигрываться)
-**guide&nbsp;dungeons** | List of all supported dungeons and its ids | Список всех поддерживаемых данжей и их id
-**guide&nbsp;verbose&nbsp;`id`**<br>(default: on for all) | Send notices for specified by `id` dungeon on/off | Вкл./выкл. всех уведомлений для данжа, где `id` - идентификатор данжа
-**guide&nbsp;spawnObject&nbsp;`id`**<br>(default: on for all) | Spawn marker objects for specified by `id` dungeon on/off | Вкл./выкл. спавна объектов для данжа, где `id` - идентификатор данжа
-**guide&nbsp;help** | List of supported commands | Вывод поддерживаемых команд
+**guide** | Module on/off | Activer / Désactiver le module
+**guide&nbsp;gui** | Show module GUI| Afficher l'interface graphique
+**guide&nbsp;voice**<br>(default: off) | Text-to-speech (TTS) notices on/off, speech rate is set by command **guide `1`~`10`** | Activer / Désactiver notifications vocales (TTS), la vitesse de lecture est définie par la commande **guide `1`~`10`**
+**guide&nbsp;lNotice**<br>(default: off) | Send notices to chat channel "Notice" instead of on-screen messages on/off | Activer / Désactiver envoyer des notifications au canal de discussion "Important" au lieu d'afficher des messages à l'écran
+**guide&nbsp;gNotice**<br>(default: off) | Send notices to party chat channel on/off | Activer / Désactiver envoyer des notifications à un canal de discussion de groupe
+**guide&nbsp;`auto`/`en`/`ru`**<br>(default: auto) | Set guide language | Sélection d'une langue de traduction
+**guide&nbsp;`1`~`10`**<br>(default: 2) | Set TTS speech rate | Réglage de la vitesse de lecture des messages vocaux
+**guide&nbsp;spawnObject**<br>(default: on) | Spawn marker objects on/off | Activer / Désactiver apparition d'objets de marquage
+**guide&nbsp;stream**<br>(default: off) | Streamer Mode on/off (hide all notices and objects, TTS will played) | Activer / Désactiver mode streamer (masque toutes les notifications et les marqueurs, TTS sera joué)
+**guide&nbsp;dungeons** | List of all supported dungeons and its ids | Liste de tous les donjons pris en charge et leurs id
+**guide&nbsp;verbose&nbsp;`id`**<br>(default: on for all) | Send notices for specified by `id` dungeon on/off | Activer / Désactiver toutes les notifications pour le donjon, où `id` est l'identifiant du donjon
+**guide&nbsp;spawnObject&nbsp;`id`**<br>(default: on for all) | Spawn marker objects for specified by `id` dungeon on/off | Activer / Désactiver apparition d'objets pour le donjon, où "id" est l'identifiant du donjon
+**guide&nbsp;help** | List of supported commands | Liste des commandes prises en charge
 
 ## Supported dungeons / Поддерживаемые данжи
 
 ### Patch v92.04 (Menma's TERA)
-id | Dungeon name | Название данжа
+id | Dungeon name | Le nom du donjon
 --- | --- | ---
 7011 | Shadow of the Gutrends (Guardian)
 7015 | Escape from Balder's Refuge (Guardian) 
@@ -83,34 +83,36 @@ id | Dungeon name | Название данжа
 9780 | Velik's Hold (5-Person)
 9781 | Velik's Sanctuary
 
-## Notices settings / Настройка уведомлений
+## Notices settings / Paramètres de notification
 
 * On screen (on bottom side) and chat notices, if **lNotice** parameter is *on*.   
-  Уведомления на экране (в нижней части), а также в чате, если параметр **lNotice** - *включен*.   
+  Notifications à l'écran (en bas), ainsi que dans le chat, si le paramètre **lNotice** est *activé*.
   ![](https://i.imgur.com/BPlK58M.png)
 
 * When **gNotice** parameter is *on*, notices will also be sent to party chat channel.   
-  Если параметр **gNotice** был *включен*, уведомления также будут отправляться в канал чата группы.   
+  Si l'option **gNotice** était *activée*, les notifications seront également envoyées au canal de chat du groupe.  
 
 * The message on top side of the screen, if **lNotice** parameter is *off* (by default).   
-  Сообщение в верхней части экрана, если параметр **lNotice** - *выключен* (по-умолчанию).   
+  Message en haut de l'écran si le paramètre **lNotice** est *off* (par défaut).  
   ![](https://i.imgur.com/r2bb8Wc.png)   
   You can set the color for this type of notices using the commands or GUI (also change color in the Toolbox chat).   
-  Возможен выбор цвета для этого вида уведомлений при помощи команд или графического интерфейса (также изменяется цвет в чате Toolbox).
+  Il est possible de sélectionner une couleur pour ce type de notification à l'aide de commandes ou de l'interface graphique (cela change également la couleur dans 
+  le chat de la boîte à outils).
 
 * When Streamer Mode is *on* (**stream** parameter), all text notices ONLY sent to Toolbox(/8) chat channel, but TTS notices will be played.   
-  Если *включен* режим стримера (парам. **stream**), все текстовые уведомления будут отправляться ТОЛЬКО в канал чата Toolbox(/8), однако голосовые уведомления будут проигрываться.
+ Si le mode streamer est *activé* (param. **stream**), toutes les notifications textuelles seront envoyées UNIQUEMENT au canal de discussion Toolbox(/8), mais 
+ les notifications vocales seront lues.
 
 * To disable or enable TTS notifications, use the **guide voice** command.   
-  Для отключения или включения голосовых уведомлений используется команда **guide voice**.
+  Pour désactiver ou activer les notifications vocales, utilisez la commande **guide voice**.
 
-## Module GUI / Графический интерфейс
+## Module GUI / Interface graphique
 
 * When you enter the **guide gui** command, the module GUI is displayed, allowing you to change basic settings.   
-  При вводе команды **guide gui** отображается графический интерфейс модуля, позволяющий осуществить основные настройки.   
+  Lorsque vous entrez la commande **guide gui**, l'interface graphique du module s'affiche, vous permettant d'effectuer les réglages de base.  
   ![](https://i.imgur.com/72hDCvQ.png)
 
-## More information / Дополнительная информация
+## More information / Informations Complémentaires
 
 * Developers wiki: https://github.com/hsdn/tera-guide-core/wiki
 * For questions and suggestions, contact via Discord: **JKQ#5649**
@@ -125,3 +127,5 @@ id | Dungeon name | Название данжа
 - **[Emilia](https://github.com/emilia-s2)** - Author of Portuguese translation and guardian guides
 - **[Loliconera](https://github.com/Loliconera)** - Author of Spanish translation
 - **[ITunk](https://github.com/GrafNikola)** - Author of initial Russian translation
+
+
