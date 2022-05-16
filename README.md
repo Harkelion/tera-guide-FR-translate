@@ -48,7 +48,7 @@ When using TeraToolbox, all dependencies will be installed automatically.
 При использовании TeraToolbox, все зависимости будут установлены автоматически.
 
 ## Commands / Commandes
-Toolbox(/8) | Command description | Описание команды
+Toolbox(/8) | Command description | Description des commandes
 --- | --- | ---
 **guide** | Module on/off | Activer / Désactiver le module
 **guide&nbsp;gui** | Show module GUI| Afficher l'interface graphique
